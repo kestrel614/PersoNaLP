@@ -8,7 +8,23 @@ Author: Yiming Li
 
 # Table of contents
 
-[TOC]
+   * [Short summary](#short-summary)
+      * [Benchmark data sets and other resources](#benchmark-data-sets-and-other-resources)
+      * [Quick summary of the results in the reviewed papers](#quick-summary-of-the-results-in-the-reviewed-papers)
+   * [Thoughts](#thoughts)
+      * [Defining personality, emotions and memory in our context](#defining-personality-emotions-and-memory-in-our-context)
+      * [Proposed pseudo-algorithm](#proposed-pseudo-algorithm)
+   * [Detailed summary](#detailed-summary)
+      * [Personality vs. language](#personality-vs-language)
+         * [Personality in 100,000 Words: A large-scale analysis of personality and word use among bloggers](#personality-in-100000-words-a-large-scale-analysis-of-personality-and-word-use-among-bloggers)
+         * [Personality as manifest in word use: Correlations with self-report, acquaintance report, and behavior](#personality-as-manifest-in-word-use-correlations-with-self-report-acquaintance-report-and-behavior)
+         * [Predicting personality from Twitter](#predicting-personality-from-twitter)
+         * [Birds of a feather: How personality influences blog writing and reading](#birds-of-a-feather-how-personality-influences-blog-writing-and-reading)
+         * [Personality and language use in self-narratives](#personality-and-language-use-in-self-narratives)
+         * [Personality, attitudes, and affect as predictors of second language communication](#personality-attitudes-and-affect-as-predictors-of-second-language-communication)
+         * [What are they blogging about? Personality, topic and motivation in blogs](#what-are-they-blogging-about-personality-topic-and-motivation-in-blogs)
+      * [Mood effects vs. language](#mood-effects-vs-language)
+         * [On feeling good and being rude: Affective influences on language use and request formulations](#on-feeling-good-and-being-rude-affective-influences-on-language-use-and-request-formulations)
 
 # Short summary
 
@@ -20,12 +36,12 @@ Author: Yiming Li
 
 ## Quick summary of the results in the reviewed papers
 
-Personality features more related to language use:
+**Personality features more related to language use**:
 
 * The Big Five
-    * ==Openness== (Scales: Openness/Creativity and Intellect)
-    * ==Agreeableness== (Scales: Politeness and Compassion)
-    * Extraversion (Scales: Enthusiasm and ==Assertiveness==)
+    * **Openness** (Scales: Openness/Creativity and Intellect)
+    * **Agreeableness** (Scales: Politeness and Compassion)
+    * Extraversion (Scales: Enthusiasm and **Assertiveness**)
     * Conscientiousness (Scales: Orderliness and Industriousness)
     * Neuroticism (Scales: Withdrawal and Volatility)
 * Other attributes
@@ -34,7 +50,7 @@ Personality features more related to language use:
     * Being dissociative
     * etc.
 
-Language features more related to personality:
+**Language features more related to personality**:
 
 * Word-wise
     * Vocabulary

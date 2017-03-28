@@ -28,13 +28,48 @@ Author: Yiming Li
 
 # Short summary
 
+
+⇒ XM : add problematic to solve to articulate this litterature review 
+##Abstract 
+The usual methods for constructing answers in NLP is tree-based : a set of predetermined questions is built by writers who have then a choice to give personalities to the chatbot.
+Some automatic methods exist as well : XXX
+Our goal is to mimick answers that one particular individual would make to a specific written input/question, by using an automatic method mixing the "right meaning" to the language features of the mimicked individual.
+Our first approach is to 
+1- identify leading factors for writing expression see list in [I]
+2- define possible application of this "style recognition" 
+3- develop a prototype application
+
+⇒ XM : added macro analysis of factors affecting writing 
+#I - factors driving writing style 
+
+Intuitively (TODO : document !) several factors lead the language and "style" used by one individual :
+* nationality : beyond language itself it's language variants ... even in english 
+* familial origins, social class
+* scholarship 
+* knowledge 
+* intelligence
+* professional occupation (jargon)
+* personality
+
+The link between personality and writing style raised latter has raised lots of interest ⇒ XM : why ?
+
+##Generation of answers 
+[2006 stanford paper with a raw algo](https://nlp.stanford.edu/courses/cs224n/2006/fp/henggong-telarson-joshd-1-cs224n_project_report.pdf)
+
+
+# I-A personality 
 ## Benchmark data sets and other resources
 
 [Linguistic Inquiry and Word Count](https://liwc.wpengine.com/) (LIWC) is used in almost all the analyses for characterising text data.
 
+⇒ XM : elaborate a bit on what this is ...
+
 [The Big Five](https://en.wikipedia.org/wiki/Big_five_personality_traits) (along with its derivative [Big Five Aspect Scales](https://en.wikipedia.org/wiki/Big_Five_Aspect_Scales)) is widely used as a measure for personality.
 
 ## Quick summary of the results in the reviewed papers
+
+⇒ XM how do we define "personality" here ?  what are the most common acceptations ? 
+What are the aspects of personality we are interested in ? for example the way emotions are expressed will depend on personality 
 
 **Personality features more related to language use**:
 
@@ -70,7 +105,7 @@ Author: Yiming Li
 
 ## Defining personality, emotions and memory in our context
 
-What is "personality"?
+What is "personality"? ⇒ XM : TODO, and particularly what is our understanding of "personality"
 
 A bot's ***memory*** simply consists of the previous user inputs to the algorithm (along with its pre-defined "life events").
 
@@ -105,7 +140,7 @@ Engine for chatbot
         * Personality features pf
     * (Constant) From literature
         * A set of rules A defining mapping (or rather, association) between personality and text features
-2. Algorithm for generating response (plenty available)
+2. Algorithm for generating response (plenty available ⇒ XM : details ?)
     * Input: x
     * Output: a personality-wise neutral response w
 3. Engine for "translation"
@@ -173,7 +208,8 @@ This is interesting in that it does not actually use [the Big Five](https://en.w
         * The usage of **certainty**, **physical**, **body**, and **sexuality words** is more related to personality.
     * The usage of **sad words** and **self-references** is more related to personality.
         * More sad words and self-references &rarr; more depressive
-        * Notice that, though, "use of sad words correlates with being socially undesirable (e.g. expresses hostility and does not smilefrequently), whereas use of self-references correlates with being socially desirable (e.g. enthusiastic, cheerful, and warm)".
+        * Notice that, though, "use of sad words correlates with being socially undesirable (e.g. expresses hostility and does not smile
+frequently), whereas use of self-references correlates with being socially desirable (e.g. enthusiastic, cheerful, and warm)".
 
 ### Predicting personality from Twitter
 
@@ -236,7 +272,8 @@ Rather short.
     * Correlation between text feature scores and personality scores
 * Conclusions
     * Please c.f. Tables 1-2 in the article.
-    * Personality traits appear significantly and strongly related to**patterns of word use** during the **telling of the past** and the **planning of the future**
+    * Personality traits appear significantly and strongly related to
+**patterns of word use** during the **telling of the past** and the **planning of the future**
 
 ### Personality, attitudes, and affect as predictors of second language communication
 
@@ -262,3 +299,4 @@ All these papers mainly do research on the association between mood and language
 
 Forgas, Joseph P. "On feeling good and being rude: Affective influences on language use and request formulations." *Journal of Personality and Social Psychology* 76.6 (1999): 928.
 
+# I-B Other factors : TODO !

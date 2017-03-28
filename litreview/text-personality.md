@@ -10,7 +10,6 @@ Author: Yiming Li
 
    * [Introduction](#introduction)
       * [Factors driving one's writing style](#factors-driving-ones-writing-style)
-      * [Automatic generation of answers](#automatic-generation-of-answers)
    * [Short summary](#short-summary)
       * [Benchmark data sets and other resources](#benchmark-data-sets-and-other-resources)
       * [Quick summary of the results in the reviewed papers](#quick-summary-of-the-results-in-the-reviewed-papers)
@@ -32,11 +31,11 @@ Author: Yiming Li
 
 # Introduction
 
->⇒ XM : add problems to solve to articulate this litterature review
+>⇒ XM : Added problems to solve to articulate this litterature review
 
 The usual methods for constructing answers in NLP is tree-based : a set of predetermined questions is built by writers who have then a choice to give personalities to the chatbot.
 
-Some automatic methods exist as well : XXX
+Some automatic methods exist as well, e.g. [2006 Stanford paper with a raw algorithm](https://nlp.stanford.edu/courses/cs224n/2006/fp/henggong-telarson-joshd-1-cs224n_project_report.pdf)
 
 Our goal is to mimick answers that one particular individual would make to a specific written input/question, by using an automatic method mixing the "right meaning" to the language features of the mimicked individual.
 
@@ -46,25 +45,22 @@ Our first approach is to:
 2. Define possible application of this "style recognition" 
 3. Develop a prototype application
 
->⇒ XM : added macro analysis of factors affecting writing 
-
 ## Factors driving one's writing style 
 
-Intuitively `TO-DO : document !` there are several factors leading the language and "style" used by one individual :
+>⇒ XM : Added macro analysis of factors affecting writing 
 
-* Nationality : beyond language itself it's language variants ... even in english 
+Intuitively `(TO-DO : document !)` there are several factors leading the language and "style" used by one individual :
+
+* Nationality : Beyond language itself it's language variants ... even in english 
 * Familial origins, social class
 * Scholarship 
 * Knowledge 
 * Intelligence
 * Professional occupation (jargon)
-* Personality
+* **Personality**
 
 The link between personality and writing style raised latter has raised lots of interest
->⇒ XM : why ?
-
-## Automatic generation of answers 
-[2006 stanford paper with a raw algo](https://nlp.stanford.edu/courses/cs224n/2006/fp/henggong-telarson-joshd-1-cs224n_project_report.pdf)
+>⇒ XM : Why ?
 
 # Short summary 
  
@@ -116,9 +112,15 @@ What is "personality"?
 
 > ⇒ XM : TODO, and particularly what is our understanding of "personality"
 > 
-> ⇒ XM how do we define "personality" here ?  what are the most common acceptations ?
+> ⇒ XM :
+> 
+> How do we define "personality" here ?
+> 
+> What are the most common acceptations ?
 >  
-> What are the aspects of personality we are interested in ? for example the way emotions are expressed will depend on personality 
+> What are the aspects of personality we are interested in ?
+> 
+> For example the way emotions are expressed will depend on personality 
 
 A bot's ***memory*** simply consists of the previous user inputs to the algorithm (along with its pre-defined "life events").
 

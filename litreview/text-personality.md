@@ -68,7 +68,9 @@ The link between personality and writing style raised latter has raised lots of 
 
 [Linguistic Inquiry and Word Count](https://liwc.wpengine.com/) (LIWC) is used in almost all the analyses for characterising text data.
 
-> ⇒ XM : elaborate a bit on what this is ...
+>⇒ XM : elaborate a bit on what this is ...
+
+* [The LIWC2015 Devlopment Manual](http://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf)
 
 [The Big Five](https://en.wikipedia.org/wiki/Big_five_personality_traits) (along with its derivative [Big Five Aspect Scales](https://en.wikipedia.org/wiki/Big_Five_Aspect_Scales)) is widely used as a measure for personality.
 

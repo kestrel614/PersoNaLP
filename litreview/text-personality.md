@@ -4,7 +4,7 @@ Author: Yiming Li
 -->
 # Associating language with personality: an informal literature review 
 
-*By <a href="http://www.google.com/recaptcha/mailhide/d?k=01csXFRp7K1dsFA4c9tNF-_g==&amp;c=SPBmIG77uJ7ktz_OiFkTkA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01csXFRp7K1dsFA4c9tNF-_g\x3d\x3d\x26c\x3dSPBmIG77uJ7ktz_OiFkTkA\x3d\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Yiming Li</a>; last updated 27 Mar 2017*
+*By <a href="http://www.google.com/recaptcha/mailhide/d?k=01csXFRp7K1dsFA4c9tNF-_g==&amp;c=SPBmIG77uJ7ktz_OiFkTkA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01csXFRp7K1dsFA4c9tNF-_g\x3d\x3d\x26c\x3dSPBmIG77uJ7ktz_OiFkTkA\x3d\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Yiming Li</a> and Xavier; last updated 28 Mar 2017*
 
 # Table of contents
 
@@ -30,34 +30,42 @@ Author: Yiming Li
 
 
 ⇒ XM : add problematic to solve to articulate this litterature review 
-##Abstract 
+
+## Abstract 
+
 The usual methods for constructing answers in NLP is tree-based : a set of predetermined questions is built by writers who have then a choice to give personalities to the chatbot.
+
 Some automatic methods exist as well : XXX
+
 Our goal is to mimick answers that one particular individual would make to a specific written input/question, by using an automatic method mixing the "right meaning" to the language features of the mimicked individual.
-Our first approach is to 
-1- identify leading factors for writing expression see list in [I]
-2- define possible application of this "style recognition" 
-3- develop a prototype application
+
+Our first approach is to:
+
+1. Identify leading factors for writing expression see list in [I]
+2. Define possible application of this "style recognition" 
+3. Develop a prototype application
 
 ⇒ XM : added macro analysis of factors affecting writing 
-#I - factors driving writing style 
+
+# I. Factors driving writing style 
 
 Intuitively (TODO : document !) several factors lead the language and "style" used by one individual :
-* nationality : beyond language itself it's language variants ... even in english 
-* familial origins, social class
-* scholarship 
-* knowledge 
-* intelligence
-* professional occupation (jargon)
-* personality
+
+* Nationality : beyond language itself it's language variants ... even in english 
+* Familial origins, social class
+* Scholarship 
+* Knowledge 
+* Intelligence
+* Professional occupation (jargon)
+* Personality
 
 The link between personality and writing style raised latter has raised lots of interest ⇒ XM : why ?
 
-##Generation of answers 
+## Generation of answers 
 [2006 stanford paper with a raw algo](https://nlp.stanford.edu/courses/cs224n/2006/fp/henggong-telarson-joshd-1-cs224n_project_report.pdf)
 
 
-# I-A personality 
+# I-A. Personality 
 ## Benchmark data sets and other resources
 
 [Linguistic Inquiry and Word Count](https://liwc.wpengine.com/) (LIWC) is used in almost all the analyses for characterising text data.
@@ -299,4 +307,4 @@ All these papers mainly do research on the association between mood and language
 
 Forgas, Joseph P. "On feeling good and being rude: Affective influences on language use and request formulations." *Journal of Personality and Social Psychology* 76.6 (1999): 928.
 
-# I-B Other factors : TODO !
+# I-B. Other factors : TODO !

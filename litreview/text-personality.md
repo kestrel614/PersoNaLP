@@ -4,10 +4,13 @@ Author: Yiming Li
 -->
 # Associating language with personality: an informal literature review 
 
-*By <a href="http://www.google.com/recaptcha/mailhide/d?k=01csXFRp7K1dsFA4c9tNF-_g==&amp;c=SPBmIG77uJ7ktz_OiFkTkA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01csXFRp7K1dsFA4c9tNF-_g\x3d\x3d\x26c\x3dSPBmIG77uJ7ktz_OiFkTkA\x3d\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Yiming Li</a> and Xavier; last updated 28 Mar 2017*
+*By <a href="http://www.google.com/recaptcha/mailhide/d?k=01csXFRp7K1dsFA4c9tNF-_g==&amp;c=SPBmIG77uJ7ktz_OiFkTkA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01csXFRp7K1dsFA4c9tNF-_g\x3d\x3d\x26c\x3dSPBmIG77uJ7ktz_OiFkTkA\x3d\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Yiming Li</a> and Xavier Mathieu; last updated 28 Mar 2017*
 
 # Table of contents
 
+   * [Introduction](#introduction)
+      * [Factors driving one's writing style](#factors-driving-ones-writing-style)
+      * [Automatic generation of answers](#automatic-generation-of-answers)
    * [Short summary](#short-summary)
       * [Benchmark data sets and other resources](#benchmark-data-sets-and-other-resources)
       * [Quick summary of the results in the reviewed papers](#quick-summary-of-the-results-in-the-reviewed-papers)
@@ -25,13 +28,11 @@ Author: Yiming Li
          * [What are they blogging about? Personality, topic and motivation in blogs](#what-are-they-blogging-about-personality-topic-and-motivation-in-blogs)
       * [Mood effects vs. language](#mood-effects-vs-language)
          * [On feeling good and being rude: Affective influences on language use and request formulations](#on-feeling-good-and-being-rude-affective-influences-on-language-use-and-request-formulations)
+   * [Discussion: Other factors apart from personality](#discussion-other-factors-apart-from-personality)
 
-# Short summary
+# Introduction
 
-
-⇒ XM : add problematic to solve to articulate this litterature review 
-
-## Abstract 
+>⇒ XM : add problems to solve to articulate this litterature review
 
 The usual methods for constructing answers in NLP is tree-based : a set of predetermined questions is built by writers who have then a choice to give personalities to the chatbot.
 
@@ -41,15 +42,15 @@ Our goal is to mimick answers that one particular individual would make to a spe
 
 Our first approach is to:
 
-1. Identify leading factors for writing expression see list in [I]
+1. Identify leading factors for writing expression (see list in [the next subsection](#factors-driving-ones-writing-style))
 2. Define possible application of this "style recognition" 
 3. Develop a prototype application
 
-⇒ XM : added macro analysis of factors affecting writing 
+>⇒ XM : added macro analysis of factors affecting writing 
 
-# I. Factors driving writing style 
+## Factors driving one's writing style 
 
-Intuitively (TODO : document !) several factors lead the language and "style" used by one individual :
+Intuitively `TO-DO : document !` there are several factors leading the language and "style" used by one individual :
 
 * Nationality : beyond language itself it's language variants ... even in english 
 * Familial origins, social class
@@ -59,25 +60,23 @@ Intuitively (TODO : document !) several factors lead the language and "style" us
 * Professional occupation (jargon)
 * Personality
 
-The link between personality and writing style raised latter has raised lots of interest ⇒ XM : why ?
+The link between personality and writing style raised latter has raised lots of interest
+>⇒ XM : why ?
 
-## Generation of answers 
+## Automatic generation of answers 
 [2006 stanford paper with a raw algo](https://nlp.stanford.edu/courses/cs224n/2006/fp/henggong-telarson-joshd-1-cs224n_project_report.pdf)
 
-
-# I-A. Personality 
+# Short summary 
+ 
 ## Benchmark data sets and other resources
 
 [Linguistic Inquiry and Word Count](https://liwc.wpengine.com/) (LIWC) is used in almost all the analyses for characterising text data.
 
-⇒ XM : elaborate a bit on what this is ...
+> ⇒ XM : elaborate a bit on what this is ...
 
 [The Big Five](https://en.wikipedia.org/wiki/Big_five_personality_traits) (along with its derivative [Big Five Aspect Scales](https://en.wikipedia.org/wiki/Big_Five_Aspect_Scales)) is widely used as a measure for personality.
 
 ## Quick summary of the results in the reviewed papers
-
-⇒ XM how do we define "personality" here ?  what are the most common acceptations ? 
-What are the aspects of personality we are interested in ? for example the way emotions are expressed will depend on personality 
 
 **Personality features more related to language use**:
 
@@ -113,7 +112,13 @@ What are the aspects of personality we are interested in ? for example the way e
 
 ## Defining personality, emotions and memory in our context
 
-What is "personality"? ⇒ XM : TODO, and particularly what is our understanding of "personality"
+What is "personality"?
+
+> ⇒ XM : TODO, and particularly what is our understanding of "personality"
+> 
+> ⇒ XM how do we define "personality" here ?  what are the most common acceptations ?
+>  
+> What are the aspects of personality we are interested in ? for example the way emotions are expressed will depend on personality 
 
 A bot's ***memory*** simply consists of the previous user inputs to the algorithm (along with its pre-defined "life events").
 
@@ -307,4 +312,6 @@ All these papers mainly do research on the association between mood and language
 
 Forgas, Joseph P. "On feeling good and being rude: Affective influences on language use and request formulations." *Journal of Personality and Social Psychology* 76.6 (1999): 928.
 
-# I-B. Other factors : TODO !
+# Discussion: Other factors apart from personality
+
+>TO-DO!
